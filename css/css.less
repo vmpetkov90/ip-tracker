@@ -1,0 +1,87 @@
+@darkGray: hsl(0, 0%, 17%);
+@gray: hsl(0, 0%, 59%);
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    color: @darkGray;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+header {
+    background-image: url("/images/pattern-bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 18rem;
+    padding: 1.5rem;
+}
+
+input {
+    padding: 1rem 1.4rem;
+    border: 0;
+    outline: none;
+    border-radius: 1rem;
+    width: 100%;
+    color: @darkGray;
+    font-size: 1.2rem;
+}
+
+button {
+    position: absolute;
+    background: @darkGray;
+    border: 0;
+    outline: none;
+    right: 1.5rem;
+    height: 3.8rem;
+    width: 3.8rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+main.container-fluid {
+    background: #fff;
+    position: absolute;
+    top: 10rem;
+    left: 1.5rem;
+    right: 1.5rem;
+    width: auto;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    z-index: 2;
+}
+
+label {
+    color: @gray;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+}
+
+footer {
+    background: red;
+    flex-grow: 1;
+    z-index: 1;
+}
+
+#mapid {
+    height: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
